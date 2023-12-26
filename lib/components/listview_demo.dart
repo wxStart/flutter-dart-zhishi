@@ -22,13 +22,6 @@ class ListViewDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.grey[100],
-      appBar: AppBar(
-        title: const Text('我的flutter-app1'),
-      ),
-      body:
-          ListView.builder(itemBuilder: _itemBuilder, itemCount: datas.length),
-    );
+    return ListView.builder(itemBuilder: _itemBuilder, itemCount: datas.length);
   }
 }
