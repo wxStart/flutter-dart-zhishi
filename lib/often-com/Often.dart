@@ -116,3 +116,56 @@ class RowDome extends StatelessWidget {
     );
   }
 }
+
+class StackDome extends StatelessWidget {
+  const StackDome({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      alignment: const Alignment(0, 0),
+      color: Colors.blueAccent[200],
+      child: Stack(
+        // alignment: Alignment.topCenter,
+        children: <Widget>[
+          Container(
+            color: Colors.red[200],
+            height: 300,
+            width: 300,
+            child: const Text(
+              '哈哈',
+              style: TextStyle(fontSize: 16),
+            ),
+          ),
+          Container(
+            alignment: const Alignment(0, 0), //修饰子部件 child相对自己的定位 （-1~1，所以0是中间）
+            color: Colors.green[200],
+            height: 200,
+            width: 200,
+            child: const Text(
+              'asdy',
+              style: TextStyle(fontSize: 20),
+            ),
+          ),
+          Positioned(
+            top: 20,
+            right: 0,
+            child: Container(
+              alignment:
+                  const Alignment(0, 0), //修饰子部件 child相对自己的定位 （-1~1，所以0是中间）
+              color: Colors.yellow[200],
+              height: 160,
+              child: const AspectRatio(
+                aspectRatio: 1 / 2, // 约束了父容器的 宽/高，所以例子的高是160 宽为80
+                child: Text(
+                  'fsf1',
+                  style: TextStyle(fontSize: 26),
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}

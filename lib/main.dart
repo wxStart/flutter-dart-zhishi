@@ -13,7 +13,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text('我的flutter-app1'),
         ),
-        body: RowDome(),
+        body: StackDome(),
       ),
     );
   }
