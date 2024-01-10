@@ -3,8 +3,13 @@ import 'package:flutter/material.dart';
 // import './components/listview_demo.dart';
 
 import './state-com//State.dart';
+import 'lib-dome/dio.dart';
 
-void main() => runApp(App());
+void main(List<String> args) {
+  download();
+}
+
+// void main() => runApp(App());
 
 class App extends StatelessWidget {
   @override
