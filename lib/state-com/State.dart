@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
 // 逻辑和渲染是分开的，所以有了个
-class StateDome extends StatefulWidget {
-  const StateDome({super.key});
+class Index extends StatefulWidget {
+  const Index({super.key});
 
   /**
     @override
-    State<StateDome> createState(){
+    State<Index> createState(){
       return _MyWidgetState();
     };
    */
 
   @override
-  State<StateDome> createState() => _MyWidgetState();
+  State<Index> createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<StateDome> {
+class _MyWidgetState extends State<Index> {
   int count = 0;
 
   @override

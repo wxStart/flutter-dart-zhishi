@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../model/car.dart';
 
-class ListViewDemo extends StatelessWidget {
+class Index extends StatelessWidget {
   // _的内容是指文件内部
   Widget _itemBuilder(BuildContext context, int index) {
     return Container(

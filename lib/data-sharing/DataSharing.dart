@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class LifeCycle extends StatefulWidget {
-  const LifeCycle({super.key});
+class Index extends StatefulWidget {
+  const Index({super.key});
   @override
-  State<LifeCycle> createState() => _LifeCycleState();
+  State<Index> createState() => _IndexState();
 }
 
-class _LifeCycleState extends State<LifeCycle> {
+class _IndexState extends State<Index> {
   int _count = 0;
 
   @override

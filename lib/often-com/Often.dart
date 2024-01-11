@@ -169,3 +169,8 @@ class StackDome extends StatelessWidget {
     );
   }
 }
+
+// class Index extends TextDome {}
+// class Index extends RichDome {}
+// class Index extends RowDome {}
+class Index extends StackDome {}

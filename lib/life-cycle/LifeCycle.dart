@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class LifeCycle extends StatefulWidget {
-  LifeCycle({super.key}) {
+class Index extends StatefulWidget {
+  Index({super.key}) {
     print("构造函数");
   }
 
   @override
-  State<LifeCycle> createState() {
+  State<Index> createState() {
     print('createState');
-    return _LifeCycleState();
+    return _IndexState();
   }
 }
 
-class _LifeCycleState extends State<LifeCycle> {
-  _LifeCycleState() {
+class _IndexState extends State<Index> {
+  _IndexState() {
     print("State 构造");
   }
 
