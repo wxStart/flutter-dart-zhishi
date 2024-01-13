@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
+// 每个文件导出一个MyApp
+import './01常用/01.文本组件.dart';
 
-void main() => runApp(App());
+void main() => runApp(MyApp());
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.grey[100],
-        // appBar: AppBar(
-        //   title: const Text('我的flutter-app1'),
-        // ),
-        body: Text('124'),
-      ),
-    );
+    return MaterialApp();
   }
 }
