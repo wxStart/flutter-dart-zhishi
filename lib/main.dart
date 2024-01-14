@@ -12,7 +12,8 @@ import 'package:flutter/material.dart';
 // import './01常用/08.按钮.dart';
 // import './01常用/09.列表组件-SingleChildScrollView.dart';
 // import './01常用/09.列表组件-ListView.dart';
-import './01常用/09.列表组件-GridView.dart';
+// import './01常用/09.列表组件-GridView.dart';
+import './01常用/10.平台风格-弹窗.dart';
 
 void main() => runApp(MyApp());
 
