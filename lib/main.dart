@@ -16,7 +16,8 @@ import 'package:flutter/material.dart';
 // import './01常用/10.平台风格-弹窗.dart';
 // import './02常用的三方组件/11.dio.dart';
 // import './02常用的三方组件/12.flutter_swiper.dart';
-import './02常用的三方组件/13.shared_preferences.dart';
+// import './02常用的三方组件/13.shared_preferences.dart';
+import './01常用/14.数据共享-InheritedWidget.dart';
 
 void main() => runApp(MyApp());
 
