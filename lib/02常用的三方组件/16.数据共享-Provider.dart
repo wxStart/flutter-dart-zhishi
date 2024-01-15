@@ -11,20 +11,32 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => Counter()),
       ],
-      child: MaterialApp(
-        home: Scaffold(
-          backgroundColor: Colors.grey[100],
-          appBar: AppBar(
-            title: const Text('Provider'),
-          ),
-          body: const Column(
-            children: [ChildWidget()],
-          ),
-          floatingActionButton: FloatingActionButton(
-            onPressed: () => context.read<Counter>().add(),
-            child: const Icon(Icons.add),
-          ),
-        ),
+      child: const MaterialApp(
+        home: Home(), // 必须这样
+      ),
+    );
+  }
+}
+
+// 将 FloatingActionButton 放入 Home中才可以
+class Home extends StatelessWidget {
+  const Home({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[100],
+      appBar: AppBar(
+        title: const Text('Provider'),
+      ),
+      body: const Column(
+        children: [ChildWidget()],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => context.read<Counter>().add(),
+        child: const Icon(Icons.add),
       ),
     );
   }
