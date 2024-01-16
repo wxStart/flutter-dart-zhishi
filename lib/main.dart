@@ -25,7 +25,8 @@ import 'package:flutter/material.dart';
 // import './03路由相关/20.底部导航.dart';
 // import './03路由相关/21.tabs导航.dart';
 
-import './04表单/22.Switch.dart';
+// import './04表单/22.Switch.dart';
+import './04表单/23.Checkbox.dart';
 
 void main() => runApp(MyApp());
 
