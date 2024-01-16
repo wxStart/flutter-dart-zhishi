@@ -23,7 +23,9 @@ import 'package:flutter/material.dart';
 // import './03路由相关/18.命名路由.dart';
 // import './03路由相关/19.动态路由.dart';
 // import './03路由相关/20.底部导航.dart';
-import './03路由相关/21.tabs导航.dart';
+// import './03路由相关/21.tabs导航.dart';
+
+import './04表单/22.Switch.dart';
 
 void main() => runApp(MyApp());
 
