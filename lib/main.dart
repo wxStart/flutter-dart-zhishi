@@ -21,7 +21,8 @@ import 'package:flutter/material.dart';
 // import './02常用的三方组件/16.数据共享-Provider.dart';
 // import './03路由相关/17.匿名路由.dart';
 // import './03路由相关/18.命名路由.dart';
-import './03路由相关/19.动态路由.dart';
+// import './03路由相关/19.动态路由.dart';
+import './03路由相关/20.底部导航.dart';
 
 void main() => runApp(MyApp());
 
