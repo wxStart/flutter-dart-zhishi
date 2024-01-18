@@ -30,8 +30,8 @@ import 'package:flutter/material.dart';
 // import './04表单/24.Radio.dart';
 // import './04表单/25.TextField.dart';
 // import './04表单/27.Form.dart';
-// import './05其他/28.动画.dart';
-import './05其他/28.动画多个动画交织.dart';
+// import './05其他/28.动画-01.dart';
+import '05其他/28.动画-02多个动画交织.dart';
 
 void main() => runApp(MyApp());
 
