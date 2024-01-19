@@ -37,7 +37,8 @@ import 'package:flutter/material.dart';
 // import './05其他/28.动画-03-Hero.dart';
 
 // import './05其他/29.国际化-01-内置组件.dart';
-import '05其他/29.国际化-02-自定义组件的国际化.dart';
+// import '05其他/29.国际化-02-自定义组件的国际化.dart';
+import './05其他/29.国际化-03实际开发.dart';
 
 void main() => runApp(MyApp());
 
