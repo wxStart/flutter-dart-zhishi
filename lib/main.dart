@@ -39,7 +39,8 @@ import 'package:flutter/material.dart';
 // import './05其他/29.国际化-01-内置组件.dart';
 // import '05其他/29.国际化-02-自定义组件的国际化.dart';
 // import './05其他/29.国际化-03实际开发.dart';
-import './05其他/30.多主题.dart';
+// import './05其他/30.多主题.dart';
+import './06数据状态-flutter_redux/31.flutter_redux.dart';
 
 void main() => runApp(MyApp());
 
