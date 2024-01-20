@@ -46,6 +46,8 @@ dependencies:
   redux_epics: ^0.15.0
   rxdart: ^0.26.0
   transparent_image: ^2.0.0
+  flutter_mobx: ^2.2.0+2
+  json_annotation: ^4.8.1
 
 dev_dependencies:
   flutter_test:
