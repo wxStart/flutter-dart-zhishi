@@ -42,7 +42,8 @@ import 'package:flutter/material.dart';
 // import './05其他/30.多主题.dart';
 // import './06数据状态-flutter_redux/31.flutter_redux.dart';
 // import '06数据状态-flutter_redux复杂例子/32.index.dart';
-import './06数据状态mob/33.mobx.dart';
+// import './06数据状态mob/33.mobx.dart';
+import './06mobx-demo/34.count_page.dart';
 
 void main() => runApp(MyApp());
 
