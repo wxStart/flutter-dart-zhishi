@@ -4,6 +4,7 @@ import 'home_page.dart';
 import 'other_page.dart';
 import '404_page.dart';
 import 'query_search_page.dart';
+import './03.middleware.dart';
 
 class RoutrPage {
   static List<GetPage> routes = [
@@ -15,6 +16,7 @@ class RoutrPage {
       name: '/other',
       page: () => OtherPage(),
       transition: Transition.rightToLeft,
+      middlewares: [MyMiddleWare()],
     ),
     GetPage(name: '/query', page: () => const QuerySearch())
   ];
