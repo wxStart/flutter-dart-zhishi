@@ -35,25 +35,37 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               counterController.add(2);
             },
-            child: Text('加2'),
+            child: const Text('加2'),
           ),
           ElevatedButton(
             onPressed: () {
               counterController.sub(2);
             },
-            child: Text('-2'),
+            child: const Text('-2'),
           ),
           ElevatedButton(
             onPressed: () {
               listController.add(listController.lists.last + 2);
             },
-            child: Text('拿到最后一个数+2 并放入list中'),
+            child: const Text('拿到最后一个数+2 并放入list中'),
           ),
           ElevatedButton(
             onPressed: () {
               Get.toNamed('/other', arguments: {"id": 123});
             },
-            child: Text('去其他页面'),
+            child: const Text('去其他页面'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Get.toNamed('/count');
+            },
+            child: const Text('去count页面'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Get.toNamed('/route_binding');
+            },
+            child: const Text('进入页面加载控制器'),
           ),
         ],
       ),
