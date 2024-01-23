@@ -48,7 +48,8 @@ import 'package:flutter/material.dart';
 // import '07.GetX/02.路由相关-onGenerateRoute.dart';
 // import './07.GetX/03.路由相关-GetPage.dart';
 // import '07.GetX/04.状态管理-01-响应式数据.dart';
-import './07.GetX/04.状态管理-02-依赖管理.dart';
+// import './07.GetX/04.状态管理-02-依赖管理.dart';
+import './07.GetX/04.状态管理-03-依赖管理-优化02.dart';
 
 void main() => runApp(MyApp());
 

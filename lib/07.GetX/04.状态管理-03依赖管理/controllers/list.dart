@@ -7,12 +7,4 @@ class ListController extends GetxController {
     lists.add(number);
     update(); // 必须写 这里是通知更新
   }
-
-  // 利用单例模式
-  static ListController? instance;
-  factory ListController() {
-    ListController.instance ??= ListController.newSelf();
-    return ListController.instance!;
-  }
-  ListController.newSelf();
 }
