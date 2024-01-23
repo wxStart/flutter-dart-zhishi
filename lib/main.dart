@@ -46,7 +46,8 @@ import 'package:flutter/material.dart';
 // import './06mobx-demo/34.count_page.dart';
 // import './07.GetX/01.Dialog.dart';
 // import '07.GetX/02.路由相关-onGenerateRoute.dart';
-import './07.GetX/03.路由相关-GetPage.dart';
+// import './07.GetX/03.路由相关-GetPage.dart';
+import '07.GetX/04.状态管理-01-响应式数据.dart';
 
 void main() => runApp(MyApp());
 
