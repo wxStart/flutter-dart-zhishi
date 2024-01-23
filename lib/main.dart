@@ -44,7 +44,8 @@ import 'package:flutter/material.dart';
 // import '06数据状态-flutter_redux复杂例子/32.index.dart';
 // import './06数据状态mob/33.mobx.dart';
 // import './06mobx-demo/34.count_page.dart';
-import './07.GetX/01.Dialog.dart';
+// import './07.GetX/01.Dialog.dart';
+import '07.GetX/02.路由相关-onGenerateRoute.dart';
 
 void main() => runApp(MyApp());
 
