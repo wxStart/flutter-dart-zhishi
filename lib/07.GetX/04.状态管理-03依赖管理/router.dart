@@ -3,6 +3,7 @@ import 'count_page.dart';
 import 'home_page.dart';
 import 'other_page.dart';
 import 'route_binding_page.dart';
+import 'route_binding_page1.dart';
 import './binding/route_page_binding_controller.dart';
 
 class RouterPage {
@@ -22,9 +23,15 @@ class RouterPage {
       transition: Transition.rightToLeft,
     ),
     GetPage(
-      name: '/route_binding',
+      name: '/route_binding1',
       binding: ControllerBinding(),
       page: () => RouterCountPage(),
+      transition: Transition.rightToLeft,
+    ),
+    GetPage(
+      name: '/route_binding',
+      binding: ControllerBinding(),
+      page: () => RouterCountPage1(),
       transition: Transition.rightToLeft,
     ),
   ];

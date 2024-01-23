@@ -67,6 +67,43 @@ class HomePage extends StatelessWidget {
             },
             child: const Text('进入页面加载控制器'),
           ),
+          ElevatedButton(
+            onPressed: () {
+              Get.toNamed('/route_binding1');
+            },
+            child: const Text('测试生命周期可以飞 GetView'),
+          ),
+          DeomState(),
+        ],
+      ),
+    );
+  }
+}
+
+class DeomState extends StatefulWidget {
+  const DeomState({super.key});
+
+  @override
+  State<DeomState> createState() => _DeomStateState();
+}
+
+class _DeomStateState extends State<DeomState> {
+  int _count = 1;
+
+  @override
+  Widget build(BuildContext context) {
+    print("DeomStatebuild");
+    return Container(
+      child: Row(
+        children: [
+          Text("$_count"),
+          ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  _count++;
+                });
+              },
+              child: Text('增加'))
         ],
       ),
     );
